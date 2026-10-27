@@ -123,24 +123,24 @@ if args.frame:
         frame_found = False
         frame_defines = {
             "quad": "AP_MOTORS_FRAME_QUAD_ENABLED",
-            "+": "AP_MOTORS_FRAME_QUAD_ENABLED",
-            "X": "AP_MOTORS_FRAME_QUAD_ENABLED",
-            "cwx": "AP_MOTORS_FRAME_QUAD_ENABLED",
-            "djix": "AP_MOTORS_FRAME_QUAD_ENABLED",
-            "quad-can": "AP_MOTORS_FRAME_QUAD_ENABLED",
-            "hexa": "AP_MOTORS_FRAME_HEXA_ENABLED",
-            "hexa-cwx": "AP_MOTORS_FRAME_HEXA_ENABLED",
-            "hexa-dji": "AP_MOTORS_FRAME_HEXA_ENABLED",
-            "hexax": "AP_MOTORS_FRAME_HEXA_ENABLED",
-            "deca": "AP_MOTORS_FRAME_DECA_ENABLED",
-            "deca-cwx": "AP_MOTORS_FRAME_DECA_ENABLED",
-            "dodeca-hexa": "AP_MOTORS_FRAME_DODECAHEXA_ENABLED",
-            "octa": "AP_MOTORS_FRAME_OCTA_ENABLED",
-            "octa-dji": "AP_MOTORS_FRAME_OCTA_ENABLED",
-            "octa-cwx": "AP_MOTORS_FRAME_OCTA_ENABLED",
-            "octa-quad": "AP_MOTORS_FRAME_OCTAQUAD_ENABLED",
-            "octa-quad-cwx": "AP_MOTORS_FRAME_OCTAQUAD_ENABLED",
-            "y6": "AP_MOTORS_FRAME_Y6_ENABLED"
+            # "+": "AP_MOTORS_FRAME_QUAD_ENABLED",
+            # "X": "AP_MOTORS_FRAME_QUAD_ENABLED",
+            # "cwx": "AP_MOTORS_FRAME_QUAD_ENABLED",
+            # "djix": "AP_MOTORS_FRAME_QUAD_ENABLED",
+            # "quad-can": "AP_MOTORS_FRAME_QUAD_ENABLED",
+            # "hexa": "AP_MOTORS_FRAME_HEXA_ENABLED",
+            # "hexa-cwx": "AP_MOTORS_FRAME_HEXA_ENABLED",
+            # "hexa-dji": "AP_MOTORS_FRAME_HEXA_ENABLED",
+            # "hexax": "AP_MOTORS_FRAME_HEXA_ENABLED",
+            # "deca": "AP_MOTORS_FRAME_DECA_ENABLED",
+            # "deca-cwx": "AP_MOTORS_FRAME_DECA_ENABLED",
+            # "dodeca-hexa": "AP_MOTORS_FRAME_DODECAHEXA_ENABLED",
+            # "octa": "AP_MOTORS_FRAME_OCTA_ENABLED",
+            # "octa-dji": "AP_MOTORS_FRAME_OCTA_ENABLED",
+            # "octa-cwx": "AP_MOTORS_FRAME_OCTA_ENABLED",
+            # "octa-quad": "AP_MOTORS_FRAME_OCTAQUAD_ENABLED",
+            # "octa-quad-cwx": "AP_MOTORS_FRAME_OCTAQUAD_ENABLED",
+            # "y6": "AP_MOTORS_FRAME_Y6_ENABLED"
         }
         for frame, define in frame_defines.items():
             if args.frame == frame:

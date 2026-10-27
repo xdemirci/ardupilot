@@ -1,0 +1,86 @@
+[0mSetting top to                           :[0m [32m/home/demirci/ardupilot[0m 
+[0mSetting out to                           :[0m [32m/home/demirci/ardupilot/build[0m 
+[0mAutoconfiguration                        :[0m [32menabled[0m 
+[0mChecking for program 'python'            :[0m [32m/usr/bin/python3[0m 
+[0mChecking for python version >= 3.6.9     :[0m [32m3.10.12[0m 
+[0mSetting board to                         :[0m [32mPixhawk1[0m 
+[0mUsing toolchain                          :[0m [32marm-none-eabi[0m 
+[0mChecking for 'g++' (C++ compiler)        :[0m [32m/opt/arm-gnu/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++[0m 
+[0mChecking for 'gcc' (C compiler)          :[0m [32m/opt/arm-gnu/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc[0m 
+[0mChecking for program 'arm-none-eabi-nm'  :[0m [32m/opt/arm-gnu/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-nm[0m 
+[0mChecking for c flags '-MMD'              :[0m [32myes[0m 
+[0mChecking for cxx flags '-MMD'            :[0m [32myes[0m 
+[0mCXX Compiler                             :[0m [32mg++ 13.3.1[0m 
+[0mChecking for program 'make'              :[0m [32m/usr/bin/make[0m 
+[0mChecking for program 'arm-none-eabi-objcopy' :[0m [32m/opt/arm-gnu/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-objcopy[0m 
+Including /home/demirci/ardupilot/libraries/AP_HAL_ChibiOS/hwdef/fmuv3/hwdef.dat
+Removing AP_BATTERY_SMBUS_SOLO_ENABLED
+Removing AP_BATTERY_SMBUS_SOLO_ENABLED
+Removing BOARD_CHECK_F427_USE_1M
+Removing BOARD_CHECK_F427_USE_1M
+Setup for MCU STM32F427xx
+No default parameter file found
+Writing hwdef setup in /home/demirci/ardupilot/build/Pixhawk1/hwdef.h
+Writing DMA map
+Setting up as normal
+Generating ldscript.ld
+Checking for env.py
+env set ENABLE_DFU_BOOT=0
+env set WITH_FATFS=1
+env set PROCESS_STACK=0x1C00
+env set MAIN_STACK=0x600
+env set IOMCU_FW=0
+env set IOMCU_FW_WITH_HEATER=0
+env set PERIPH_FW=0
+env set HAL_NUM_CAN_IFACES=2
+env set HAL_CANFD_SUPPORTED=0
+env set BOARD_FLASH_SIZE=2048
+env set EXT_FLASH_SIZE_MB=0
+env set INT_FLASH_PRIMARY=False
+env set ENABLE_CRASHDUMP=True
+env set CPU_FLAGS=['-mcpu=cortex-m4', '-mfpu=fpv4-sp-d16', '-mfloat-abi=hard', '-DARM_MATH_CM4', '-u_printf_float']
+env set CORTEX=cortex-m4
+env set APJ_BOARD_ID=9
+env set APJ_BOARD_TYPE=STM32F427xx
+env set USBID=0x1209/0x5741
+env set FLASH_RESERVE_START_KB=16
+env set EXT_FLASH_RESERVE_START_KB=0
+env set FLASH_TOTAL=2080768
+env set HAS_EXTERNAL_FLASH_SECTIONS=0
+env set CHIBIOS_BUILD_FLAGS=USE_FATFS=yes CHIBIOS_STARTUP_MK=os/common/startup/ARMCMx/compilers/GCC/mk/startup_stm32f4xx.mk CHIBIOS_PLATFORM_MK=os/hal/ports/STM32/STM32F4xx/platform.mk MCU=cortex-m4 ENV_UDEFS=-DCHPRINTF_USE_FLOAT=1
+[0mEnabling ChibiOS asserts                     :[0m [32mno[0m 
+[0mDisabling Watchdog                           :[0m [32mno[0m 
+[0mEnabling malloc guard                        :[0m [32mno[0m 
+[0mEnabling ChibiOS thread statistics           :[0m [32mno[0m 
+[0mEnabling -Werror                             :[0m [32mno[0m 
+[0mChecking for intelhex module:                :[0m [32mOK[0m 
+[0mEnabled OpenDroneID                          :[0m [33mno[0m 
+[0mEnabled firmware ID checking                 :[0m [33mno[0m 
+[0mGPS Debug Logging                            :[0m [33mno[0m 
+[0mEnabled custom controller                    :[0m [33mno[0m 
+[0mChecking for HAVE_CMATH_ISFINITE             :[0m [32myes[0m 
+[0mChecking for HAVE_CMATH_ISINF                :[0m [32myes[0m 
+[0mChecking for HAVE_CMATH_ISNAN                :[0m [32myes[0m 
+[0mChecking for NEED_CMATH_ISFINITE_STD_NAMESPACE :[0m [32myes[0m 
+[0mChecking for NEED_CMATH_ISINF_STD_NAMESPACE    :[0m [32myes[0m 
+[0mChecking for NEED_CMATH_ISNAN_STD_NAMESPACE    :[0m [32myes[0m 
+[0mChecking for header endian.h                   :[0m [33mnot found[0m 
+[0mChecking for header byteswap.h                 :[0m [33mnot found[0m 
+[0mChecking for HAVE_MEMRCHR                      :[0m [33mno[0m 
+[0mConfigured VSCode Intellisense                 :[0m [32myes[0m 
+[0mDC_DSDL compiler in                            :[0m [32m/home/demirci/ardupilot/modules/DroneCAN/dronecan_dsdlc[0m 
+[0mSource is git repository                       :[0m [32myes[0m 
+[0mUpdate submodules                              :[0m [32myes[0m 
+[0mChecking for program 'git'                     :[0m [32m/usr/bin/git[0m 
+[0mGtest                                          :[0m [33mSTM32 boards currently don't support compiling gtest[0m 
+[0mChecking for program 'arm-none-eabi-size'      :[0m [32m/opt/arm-gnu/arm-gnu-toolchain-13.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-size[0m 
+[0mBenchmarks                                     :[0m [33mdisabled[0m 
+[0mUnit tests                                     :[0m [33mdisabled[0m 
+[0mScripting                                      :[0m [32mmaybe[0m 
+[0mScripting runtime checks                       :[0m [32menabled[0m 
+[0mDebug build                                    :[0m [33mdisabled[0m 
+[0mCoverage build                                 :[0m [33mdisabled[0m 
+[0mForce 32-bit build                             :[0m [33mdisabled[0m 
+[0mChecking for program 'rsync'                   :[0m [32m/usr/bin/rsync[0m 
+Removing target_list file /home/demirci/ardupilot/build/Pixhawk1/target_list
+'configure' finished successfully (1.146s)
